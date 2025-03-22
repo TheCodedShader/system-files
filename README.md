@@ -23,3 +23,11 @@ This prompt is based on the [Tonka2 bash Prompt](https://gilesorr.com/bashprompt
 
 ### Prompt example 2
 ![screenshot2](prompt-example-2.png)
+
+
+## Everforest style color scheme for Kate text editor
+
+Based on the [Everforest Color Palette](https://github.com/sainnhe/everforest/blob/master/palette.md)
+
+![screenshot3](color-example.png)
+

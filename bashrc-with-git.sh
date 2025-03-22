@@ -10,39 +10,6 @@ alias ll='eza --icons -l'
 alias la='eza --icons -a'
 alias vim='nvim'
 alias grep='grep --color=auto'
-#PS1='[\u@\h \W]\$ '
-
-# GRAY="\[\033[1;30m\]"
-# LIGHT_GRAY="\[\033[0;37m\]"
-# WHITE="\[\033[1;37m\]"
-#
-# LIGHT_BLUE="\[\033[1;34m\]"
-# LIGHT_RED="\[\033[1;31m\]"
-# YELLOW="\[\033[1;33m\]"
-#
-# case $TERM in
-#     xterm*)
-#         TITLEBAR='\[\033]0;\u@\h:\w\007\]'
-#         ;;
-#     *)
-#         TITLEBAR=""
-#         ;;
-# esac
-#
-# PS1="
-# $TITLEBAR\
-# $YELLOW-$LIGHT_BLUE-(\
-# $YELLOW\u$LIGHT_BLUE@$YELLOW\h\
-# $LIGHT_BLUE)-(\
-# $YELLOW\$PWD\
-# $LIGHT_BLUE)-$YELLOW-\
-# $LIGHT_GRAY\n\
-# $YELLOW-$LIGHT_BLUE-(\
-# $YELLOW\$(date +%H%M)$LIGHT_BLUE:$YELLOW\$(date \"+%a,%d %b %y\")\
-# $LIGHT_BLUE:$WHITE\$$LIGHT_BLUE)-$YELLOW-$LIGHT_GRAY "
-#
-# PS2="$LIGHT_BLUE-$YELLOW-$YELLOW-$LIGHT_GRAY "
-#
 
 function set_bash_prompt() {
     # Colors for PS1 prompt - these include the special \[ \] markers
