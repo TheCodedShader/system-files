@@ -80,14 +80,14 @@ function set_bash_prompt() {
 
             if [[ -z "$git_status" ]]; then
                 # Clean repo
-                GIT_STATUS="$LIGHT_BLUE)-($GREEN✓ $branch$LIGHT_BLUE"
+                GIT_STATUS="$LIGHT_BLUE)-($GREEN $branch$LIGHT_BLUE"
             else
                 # Collect git status symbols
-                [[ "$git_status" =~ \?\? ]] && symbols+="?"
-                [[ "$git_status" =~ ^.M ]] && symbols+="Δ"
-                [[ "$git_status" =~ ^A ]] && symbols+="+"
-                [[ "$git_status" =~ ^M ]] && symbols+="≈"
-                [[ "$git_status" =~ ^(D|.D) ]] && symbols+="-"
+                [[ "$git_status" =~ \?\? ]] && symbols+=""
+                [[ "$git_status" =~ ^.M ]] && symbols+=""
+                [[ "$git_status" =~ ^A ]] && symbols+="󰐕"
+                [[ "$git_status" =~ ^M ]] && symbols+="󰜘"
+                [[ "$git_status" =~ ^(D|.D) ]] && symbols+=""
 
                 # Repo has changes
                 GIT_STATUS="$LIGHT_BLUE)-($RED$symbols $branch$LIGHT_BLUE"
