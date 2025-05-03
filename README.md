@@ -31,3 +31,7 @@ Based on the [Everforest Color Palette](https://github.com/sainnhe/everforest/bl
 
 ![screenshot3](color-example.png)
 
+
+
+## NEWLY ADDED
+Powerline style prompt for Powershell
